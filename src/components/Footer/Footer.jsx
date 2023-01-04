@@ -1,5 +1,11 @@
 import React from 'react';
+import './Footer.css';
 
 export const Footer = () => {
-  return <footer></footer>;
+  return (
+    <footer>
+      <span>© Kristýna Švandová</span>
+      <span> 2023</span>
+    </footer>
+  );
 };
