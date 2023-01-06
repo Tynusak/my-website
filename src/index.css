@@ -24,7 +24,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   color: var(--text-plain);
   background-color: var(--background-primary);
@@ -33,4 +32,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.app {
+  width: 100%;
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
