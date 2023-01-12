@@ -12,6 +12,6 @@ footer {
 
 @media (min-width: 650px) {
   footer {
-    padding-right: 2rem;
+    padding-right: 1.5rem;
   }
 }

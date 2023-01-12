@@ -39,4 +39,5 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
