@@ -5,9 +5,9 @@ import { Menu } from '../Menu/Menu';
 
 export const Navigation = () => {
   const menuItems = [
-    { item: 'home', link: '/' },
-    { item: 'cv', link: '/cv' },
-    { item: 'portfolio', link: '/portfolio' },
+    { item: 'home', link: '' },
+    { item: 'cv', link: 'cv' },
+    { item: 'portfolio', link: 'portfolio' },
   ];
   const [isOpen, setIsOpen] = useState(false);
   const handleMenu = () => {
