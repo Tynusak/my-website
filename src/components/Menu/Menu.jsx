@@ -14,7 +14,7 @@ export const Menu = ({ items, isOpen, onClick }) => {
           {item.item}
         </a>
       ))}
-      <a href="/cv">Test</a>
+      <a href="https://ksvandova.netlify.app/cv">Test</a>
     </nav>
   );
 };
