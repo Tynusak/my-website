@@ -14,6 +14,7 @@ export const Menu = ({ items, isOpen, onClick }) => {
           {item.item}
         </a>
       ))}
+      <a href="/cv">Test</a>
     </nav>
   );
 };
