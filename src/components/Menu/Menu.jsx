@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Menu.css';
 
 export const Menu = ({ items, isOpen, onClick }) => {
@@ -14,6 +15,7 @@ export const Menu = ({ items, isOpen, onClick }) => {
           {item.item}
         </a>
       ))}
+      <Link to="/cv">test</Link>
     </nav>
   );
 };
