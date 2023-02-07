@@ -7,24 +7,9 @@
   align-items: flex-end;
   z-index: 1;
 }
-.nav__button {
-  width: 3rem;
-  height: 3rem;
-  padding: 0;
-  border: none;
-  color: var(--text-highlights);
-  background-color: transparent;
-  cursor: pointer;
-}
-.fa-bars,
-.fa-xmark {
-  font-size: 2.5rem;
-}
+
 @media (min-width: 650px) {
   .navigation {
     position: relative;
-  }
-  .nav__button {
-    display: none;
   }
 }

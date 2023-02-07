@@ -1,0 +1,35 @@
+.nav__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 9.5rem;
+  padding: 1rem;
+  background-color: var(--background-primary);
+}
+
+.nav__closed {
+  display: none;
+}
+.nav__link {
+  width: 100%;
+  padding: 0.5rem;
+  color: var(--text-highlights);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.nav__link:hover {
+  transform: scale(1.2);
+  transition: transform 500ms;
+}
+
+@media (min-width: 650px) {
+  nav {
+    padding-right: 2rem;
+  }
+  .nav__menu {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+  }
+}
