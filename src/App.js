@@ -7,7 +7,7 @@ import { PortfolioPage } from './pages/PortfolioPage';
 
 export const App = () => {
   return (
-    <>
+    <div className="app">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -23,6 +23,6 @@ export const App = () => {
           />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 };
