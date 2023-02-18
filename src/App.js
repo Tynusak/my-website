@@ -18,8 +18,11 @@ export const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage switchTheme={switchTheme} />} />
-          <Route path="/cv" element={<CVPage />} />
-          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/cv" element={<CVPage switchTheme={switchTheme} />} />
+          <Route
+            path="/portfolio"
+            element={<PortfolioPage switchTheme={switchTheme} />}
+          />
           <Route
             path="*"
             element={

@@ -14,7 +14,7 @@
 }
 
 .slider {
-  background-color: #1ea896;
+  background-color: var(--text-highlights);
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -25,7 +25,7 @@
 }
 
 .slider:before {
-  background-color: #ffffff;
+  background-color: var(--background-secondary);
   bottom: 4px;
   content: '';
   height: 1.5rem;
@@ -34,12 +34,12 @@
   transition: 0.4s;
   width: 1.5rem;
 }
-input:checked + .slider {
+/* input:checked + .slider {
   background-color: #ffc800;
 }
 input:checked + .slider::before {
   background-color: #000000;
-}
+} */
 
 input:checked + .slider:before {
   transform: translateX(1.5rem);
