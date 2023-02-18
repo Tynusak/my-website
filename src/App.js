@@ -17,11 +17,17 @@ export const App = () => {
     <div className="base" data-theme={theme}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage switchTheme={switchTheme} />} />
-          <Route path="/cv" element={<CVPage switchTheme={switchTheme} />} />
+          <Route
+            path="/"
+            element={<HomePage switchTheme={switchTheme} theme={theme} />}
+          />
+          <Route
+            path="/cv"
+            element={<CVPage switchTheme={switchTheme} theme={theme} />}
+          />
           <Route
             path="/portfolio"
-            element={<PortfolioPage switchTheme={switchTheme} />}
+            element={<PortfolioPage switchTheme={switchTheme} theme={theme} />}
           />
           <Route
             path="*"
