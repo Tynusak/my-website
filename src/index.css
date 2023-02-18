@@ -5,7 +5,7 @@
   --text-highlights: #1ea896;
 }
 
-:root[data-theme='dark'] {
+:root[theme='dark'] {
   --background-primary: #177e71;
   --background-secondary: black;
   --text-plain: white;
