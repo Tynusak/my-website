@@ -5,7 +5,7 @@
   --text-highlights: #1ea896;
 }
 
-:root[data-theme='dark'] {
+[data-theme='dark'] {
   --background-primary: #177e71;
   --background-secondary: black;
   --text-plain: white;
@@ -23,10 +23,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  justify-content: center;
-  color: var(--text-plain);
-  background-color: var(--background-primary);
 }
 
 code {
