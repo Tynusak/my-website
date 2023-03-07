@@ -1,6 +1,6 @@
-.navigation {
+.nav {
   position: absolute;
-  top: 9%;
+
   right: 1rem;
   display: flex;
   flex-direction: column;
@@ -9,8 +9,7 @@
 }
 
 @media (min-width: 650px) {
-  .navigation {
-    top: 0%;
+  .nav {
     right: 0;
   }
 }

@@ -7,7 +7,7 @@
   background-color: var(--background-primary);
 }
 
-.nav__closed {
+.nav__menu--closed {
   display: none;
 }
 .nav__link {

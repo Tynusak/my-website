@@ -4,7 +4,7 @@ import './Menu.css';
 
 export const Menu = ({ items, isOpen, onClick }) => {
   return (
-    <nav className={isOpen ? 'nav__menu' : 'nav__menu nav__closed'}>
+    <nav className={isOpen ? 'nav__menu' : 'nav__menu nav__menu--closed'}>
       {items.map((item) => (
         <Link
           to={item.path}

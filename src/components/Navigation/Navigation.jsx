@@ -14,7 +14,7 @@ export const Navigation = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="navigation">
+    <div className="nav">
       <NavButton onClick={handleMenu} isOpen={isOpen} />
       <Menu items={menuItems} isOpen={isOpen} onClick={handleMenu} />
     </div>
