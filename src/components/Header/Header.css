@@ -7,6 +7,12 @@ header {
   align-items: center;
 }
 
+@media (min-width: 450px) {
+  header {
+    padding: 1rem 0.5rem;
+  }
+}
+
 @media (min-width: 1000px) {
   header {
     padding: 1rem 2rem;
