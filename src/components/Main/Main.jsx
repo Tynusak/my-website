@@ -1,10 +1,10 @@
 import React from 'react';
 import './Main.css';
 
-export const Main = () => {
+export const Main = ({ home }) => {
   return (
-    <main>
-      <div className="base"></div>
+    <main className={home ? 'main main--home' : 'main'}>
+      <div className={home ? 'base base--home' : 'base'}></div>
     </main>
   );
 };

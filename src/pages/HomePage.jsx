@@ -7,7 +7,7 @@ export const HomePage = ({ switchTheme, theme }) => {
   return (
     <>
       <Header switchTheme={switchTheme} theme={theme} />
-      <Main />
+      <Main home={true} />
       <Footer />
     </>
   );

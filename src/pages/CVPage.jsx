@@ -7,7 +7,7 @@ export const CVPage = ({ switchTheme, theme }) => {
   return (
     <>
       <Header switchTheme={switchTheme} theme={theme} />
-      <Main />
+      <Main home={false} />
       <Footer />
     </>
   );

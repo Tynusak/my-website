@@ -1,13 +1,51 @@
-main {
-  margin-top: 1rem;
+.main {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
 }
 
+/* Výška main je zatím orientační */
+
 .base {
-  width: 80%;
-  height: 80vh;
+  width: 100%;
   background-color: var(--background-secondary);
+  border-radius: 2rem;
+}
+
+.main--home {
+  margin-top: 2rem;
+  height: 85vh;
+}
+
+.base--home {
+  height: 20rem;
+}
+
+@media (min-width: 450px) {
+  .main {
+    width: 90%;
+  }
+  .main--home {
+    width: 80%;
+  }
+}
+@media (min-width: 650px) {
+  .main--home {
+    width: 60%;
+  }
+}
+@media (min-width: 1000px) {
+  .main {
+    width: 80%;
+  }
+  .main--home {
+    width: 40%;
+  }
+}
+@media (min-width: 1700px) {
+  .main--home {
+    width: 25%;
+  }
 }
