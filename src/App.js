@@ -14,7 +14,7 @@ export const App = () => {
     setTheme(newTheme);
   };
   return (
-    <div className="base" data-theme={theme}>
+    <div className="web" data-theme={theme}>
       <BrowserRouter>
         <Routes>
           <Route
