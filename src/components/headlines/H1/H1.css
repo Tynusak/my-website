@@ -1,0 +1,11 @@
+.base__title {
+  color: var(--text-highlights);
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.base__title--home {
+  font-size: 1.75rem;
+  margin-top: 3rem;
+}

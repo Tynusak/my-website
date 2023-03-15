@@ -7,6 +7,7 @@
   background-color: var(--background-primary);
   position: absolute;
   top: 3rem;
+  border-radius: 1rem;
 }
 
 .nav__menu--closed {

@@ -12,6 +12,7 @@
   width: 100%;
   background-color: var(--background-secondary);
   border-radius: 2rem;
+  padding: 2rem 0;
 }
 
 .main--home {
@@ -20,6 +21,7 @@
 
 .base--home {
   height: 20rem;
+  padding: 1rem 0 2rem 0;
 }
 
 @media (min-width: 450px) {

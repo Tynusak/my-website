@@ -7,7 +7,7 @@ export const Navigation = () => {
   const menuItems = [
     { name: 'home', path: '/' },
     { name: 'cv', path: '/cv' },
-    { name: 'portfolio', path: '/portfolio' },
+    // { name: 'portfolio', path: '/portfolio' },
   ];
   const [isOpen, setIsOpen] = useState(false);
   const handleMenu = () => {
