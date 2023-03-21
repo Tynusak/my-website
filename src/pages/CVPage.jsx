@@ -12,7 +12,7 @@ export const CVPage = ({ switchTheme, theme }) => {
       <Header switchTheme={switchTheme} theme={theme} />
       <Main home={false}>
         <H1 text="Curricullum vitae" home={false} />
-        <H2 text="test" />
+        <H2 text="testtest" />
       </Main>
       <Footer />
     </>
