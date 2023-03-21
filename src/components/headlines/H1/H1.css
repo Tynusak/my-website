@@ -8,3 +8,9 @@
 .base__title--home {
   margin-top: 4rem;
 }
+
+@media (min-width: 450px) {
+  .base__title {
+    font-size: 1.8rem;
+  }
+}
