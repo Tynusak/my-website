@@ -8,11 +8,16 @@
 }
 
 .subheadline--home {
+  font-size: 1.1rem;
   text-align: center;
 }
 
 @media (min-width: 450px) {
   .subheadline {
     font-size: 1.1rem;
+  }
+
+  .subheadline--home {
+    font-size: 1.2rem;
   }
 }
