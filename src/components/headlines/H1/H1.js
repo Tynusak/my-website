@@ -1,4 +1,3 @@
-import React from 'react';
 import './H1.css';
 
 export const H1 = ({ text, home }) => {

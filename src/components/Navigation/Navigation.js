@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './Navigation.css';
 import { NavButton } from '../buttons/NavButton/NavButton';
 import { Menu } from '../Menu/Menu';
