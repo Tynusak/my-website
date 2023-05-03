@@ -1,11 +1,11 @@
 .headline {
   width: 100%;
   color: var(--text-highlights);
-  font-size: 1.35rem;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 450px) {
   .headline {
-    font-size: 1.45rem;
+    font-size: 1.4rem;
   }
 }
