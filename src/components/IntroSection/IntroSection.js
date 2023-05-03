@@ -1,4 +1,3 @@
-import React from 'react';
 import './IntroSection.css';
 
 export const IntroSection = ({children}) => {

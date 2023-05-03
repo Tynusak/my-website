@@ -1,4 +1,3 @@
-import React from 'react';
 import './NavButton.css';
 
 export const NavButton = ({ onClick, isOpen }) => {

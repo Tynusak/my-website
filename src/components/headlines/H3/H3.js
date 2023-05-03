@@ -1,4 +1,3 @@
-import React from 'react';
 import './H3.css';
 
 export const H3 = ({ text, home }) => {

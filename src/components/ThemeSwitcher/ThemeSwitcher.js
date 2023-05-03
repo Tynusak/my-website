@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './ThemeSwitcher.css';
 
 export const ThemeSwitcher = ({ switchTheme, theme }) => {

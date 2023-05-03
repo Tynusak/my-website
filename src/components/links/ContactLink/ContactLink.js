@@ -1,4 +1,3 @@
-import React from 'react';
 import './ContactLink.css';
 
 export const ContactLink = ({ link, iconClass }) => {
