@@ -1,12 +1,12 @@
 import './Header.css';
 import { ThemeSwitcher } from '../ThemeSwitcher/ThemeSwitcher';
-import { Navigation } from '../Navigation/Navigation';
+//import { Navigation } from '../Navigation/Navigation';
 
 export const Header = ({ switchTheme, theme }) => {
   return (
     <header>
-      <ThemeSwitcher switchTheme={switchTheme} theme={theme} />
-      <Navigation />
+      <ThemeSwitcher switchTheme={switchTheme} theme={theme} />{' '}
+      {/* <Navigation />  */}
     </header>
   );
 };
